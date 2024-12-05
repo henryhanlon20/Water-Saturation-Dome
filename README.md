@@ -1,7 +1,7 @@
 # Water-Saturation-Dome
 **Summary:** Function in python and Matlab to plot water saturation line and critical point in 2d thermodynamic state variable plots.
 
-Contents of Repo:
+**Contents of Repo:**
 
 -domeData_example.m: Example code for implementation in Matlab
 
