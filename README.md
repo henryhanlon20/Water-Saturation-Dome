@@ -69,3 +69,5 @@ The python script has the option of generating a csv with all the steam table va
 
 -adding the option to change reference states
 
+**Example Output Plot**
+![example plot](https://github.com/user-attachments/assets/9aec75b9-d149-4612-b67c-310888da613c)
