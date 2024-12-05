@@ -55,6 +55,10 @@ b - will be the critical point's y-coordinate for whichever thermodynamic state 
 
 In order to make use of the arrays, plot(x,y) and plot(a,b) on an existing thermodynamic plot (or new one). 
 
+The python script has the option of generating a csv with all the steam table values. 
+
+**Note, all output units are (T, K, kj/kg, kj/kg*k)**
+
 **Future Work:**
 
 -switching from Water.yaml to liquidvapor.yaml will provide better performance on the saturated vapor side of the dome, as well as potentially allow for species other than water to be used. It has been avoided thus far because Cantera does not support directly setting thermodynamic state via temperature and quality for Solution.liquidvapor.yaml. 
