@@ -123,7 +123,7 @@ plt.xlabel('Entropy [kJ/kg*k]')
 plt.ylabel('Temperature [k]')
 
 #Now we want to add our vapor dome to the plot:
-ans1,ans2,ans3,ans4=domeData("ts",50,.005)
+ans1,ans2,ans3,ans4=domeData("ts",50,1)
 plt.plot(ans1,ans2)
 plt.scatter(ans3,ans4,marker='o', label='Critical point')
 plt.show()
