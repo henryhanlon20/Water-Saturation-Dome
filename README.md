@@ -21,7 +21,7 @@
 
 -This function also splices together gas/fluid arrays of h,v and s for simplicity of plotting, rather than plotting multiple arrays, as is common with existing open source code. 
 
--This version shares the reference states that the user will be working with already within their cantera problem
+-This version has the same reference states that the user is already working with
 
 **Function Inputs:**
 
