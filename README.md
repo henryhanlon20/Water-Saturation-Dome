@@ -21,10 +21,7 @@
 
 -This function also splices together gas/fluid arrays of h,v and s for simplicity of plotting, rather than plotting multiple arrays, as is common with existing open source code. 
 
-
-**Function**
-
-**Inputs:**
+**Function Inputs:**
 
 -choice - this must be a string, and it controls the type of plot generated. Supported plots are listed below, with the correct input listed in quotes:
 
@@ -44,7 +41,7 @@ This controls which themodynamic state properties are put into the output arrays
 
 -threshold - this is a float which exists to truncate the data in the PV plot because Vg exhibits asymptotic behavior at low values of pressure. This will cut off both P and V data if there is a jump from consecutive data points larger than it. It should be controlled with an inverse relation to resolution. If resolution increases, the threshold needs to be lowered. User can explore different values as needed. For all other plots, the value has no effect, and I recommend a placeholder of 1.
 
-**Outputs:**
+**Function Outputs:**
 
 Suppose you call the function as such x,y,a,b=domeData("var1",var2,var3)
 
