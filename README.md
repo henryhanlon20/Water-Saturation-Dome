@@ -21,6 +21,8 @@
 
 -This function also splices together gas/fluid arrays of h,v and s for simplicity of plotting, rather than plotting multiple arrays, as is common with existing open source code. 
 
+-This version shares the reference states that the user will be working with already within their cantera problem
+
 **Function Inputs:**
 
 -choice - this must be a string, and it controls the type of plot generated. Supported plots are listed below, with the correct input listed in quotes:
@@ -64,4 +66,6 @@ The python script has the option of generating a csv with all the steam table va
 -switching from Water.yaml to liquidvapor.yaml will provide better performance on the saturated vapor side of the dome, as well as potentially allow for species other than water to be used. It has been avoided thus far because Cantera does not support directly setting thermodynamic state via temperature and quality for Solution.liquidvapor.yaml. 
 
 -eliminating hard coded choices for user plots by interpreting input strings 
+
+-adding the option to change reference states
 
