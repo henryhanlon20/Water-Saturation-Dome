@@ -14,7 +14,7 @@
 
 **Function**
 
-**Inputs: **
+**Inputs:**
 
 -choice - this must be a string, and it controls the type of plot generated. Supported plots are listed below, with the correct input listed in quotes:
 
