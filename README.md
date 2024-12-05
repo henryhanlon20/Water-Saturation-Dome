@@ -11,7 +11,9 @@ Inputs:
 -choice - this must be a string, and it controls the type of plot generated. Supported plots are listed below, with the correct input listed in quotes:
   Pressure-Volume "PV" or "pv"
   Pressure-Temperature "PT" or "pt" 
+  
   Pressure-Enthalpy "PH" or "ph"
+  
   Enthalpy-Entropy "HS" or "hs" 
   Temperature-Entropy "TS" or "ts"
 This controls which themodynamic state properties are put into the output arrays. The order cannot be currently reversed, but if the user needs that capability, they can simply plot the arrays in "reverse" order. 
